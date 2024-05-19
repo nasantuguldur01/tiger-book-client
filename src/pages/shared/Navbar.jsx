@@ -40,7 +40,7 @@ const Navbar = () => {
             <nav className={`py-4 lg:px-24 px-4 ${isSticky ? "sticky top-0 left-0 right-0 bg-white" : ""
                 }`}>
                 <div className="flex justify-between items-center text-base gap-8">
-                    <Link to="/" className="text-2xl font-bold text-blue-700 flex items-center gap-2">  <img src={"src/assets/media/logo.jpg" } alt="mongolain tiger work"  className="w-30 h-20"/> </Link>
+                    <Link to="/" className="text-2xl font-bold text-blue-700 flex items-center gap-2">  <img src={"./logo.jpg" } alt="mongolain tiger work"  className="w-30 h-20"/> </Link>
                     <ul className="md:flex space-x-12 hidden navitems">
 
                         {

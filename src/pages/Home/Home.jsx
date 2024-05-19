@@ -11,11 +11,6 @@ export const Home = () => {
   return (
     <div>
       <Banner/>
-      <BestSeller/>
-      <FavoriteBook/>
-      <PromoBanner/>
-      <OtherBooks/>
-      <Review/>
     </div>
   )
 }

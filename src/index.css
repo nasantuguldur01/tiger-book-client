@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg-custom-color {
+    background-color: #003161;
+}
+/* styles.css */
+.text-custom-blue {
+    color: #003161;
+}

@@ -50,12 +50,12 @@ const Signup = () => {
         <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
             <div className="relative py-3 sm:max-w-xl sm:mx-auto">
                 <div
-                    className="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
+                    className="absolute inset-0 bg-gradient-to-r from-blue-100 bg-custom-color shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
                 </div>
-                <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+                <div className="relative px-10 py-20 bg-white shadow-lg sm:rounded-3xl sm:p-10">
                     <div className="max-w-md mx-auto">
                     <div className="flex flex-col items-center justify-center">
-                        <img src={"src/assets/media/logo.jpg" } alt="mongolain tiger work"  className="w-40 h-20"/>
+                        <img src={"./logo.jpg" } alt="mongolain tiger work"  className="w-50 h-20"/>
                         </div>
                         <div className="divide-y divide-gray-200">
                             <form onSubmit={handleSignup} className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
@@ -69,7 +69,7 @@ const Signup = () => {
                                     <p className='text-base'>Аль хэдийн бүртгүүлсэн үү ? <Link to='/login' className='underline text-blue-600'>Нэвтрэх</Link> </p>
                                 </div>
                                 <div className="relative flex flex-col items-center justify-center">
-                                    <button type='submit' className="bg-blue-500 text-white rounded px-6 py-1" >Бүртгүүлэх</button>
+                                    <button type='submit' className="bg-custom-color hover:bg-blue-700 text-white rounded px-6 py-1" >Бүртгүүлэх</button>
                                 </div>
                             </form>
                         </div>
